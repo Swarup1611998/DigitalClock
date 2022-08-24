@@ -1,0 +1,67 @@
+/* style for body tag */
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: aqua;
+
+}
+/* style for h2 tag */
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    background:red;
+    opacity: 0.8;
+    border: 2mm ridge white;
+    border-radius: 10px;
+    
+}
+/* style for Clock class */
+.clock{
+    display:flex;
+}
+/* style for "div" in the class of clock */
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+/* style for "span" in the class of clock */
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: blue;
+    color: beige;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+    text-shadow: 2px 2px 2px black;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+/* style for "text class" in the class of clock */
+.clock .text{
+    height: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: black;
+    opacity: .8;
+}
+/* style for "ampm id" in the class of clock */
+.clock #ampm{
+    bottom: 0;
+    position:absolute;
+    width: 60px;
+    height:30px;
+    font-size: 20px;
+    background: red;
+    
+}
